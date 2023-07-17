@@ -7,6 +7,9 @@ This project aims to predict the emotion associated with an audio signal using M
 Audio signal representations such as Mel spectrograms and chromagrams are key in understanding the content of the audio. A Mel spectrogram is a frequency-based representation of an audio signal that involves fragmenting the signal into several windows, applying a Fourier Transform to identify the frequency components, and computing the amplitudes of the different frequencies [[1]](https://librosa.org/doc/main/generated/librosa.feature.melspectrogram.html). Chromagrams are another related representation that characterizes the pitch profile of a signal according to the twelve pitch classes used in music [[1]](https://librosa.org/doc/main/generated/librosa.feature.melspectrogram.html).
 
 Here are some examples of the different components invovled in this:
+![My Image](Screenshot_1.png)
+
+![My Image](Screenshot_2.png)
 
 
 ## Dataset
@@ -18,6 +21,7 @@ We use the Ryerson Audio-Visual Database of Emotional Speech and Song, which inc
 We follow two steps for classification:
 
 1. **SVM Classifier**: We use an SVM classifier to predict whether a given audio signal conveys a positive or negative emotion. We implement SVM from scratch using gradient descent on a cost function that allows handling non-linearly separable data.
+![My Image](Screenshot_3.png)
 
 2. **PCA-based SVM Classifier**: We use Principal Component Analysis (PCA) for dimensionality reduction of the original data, and then repeat the steps of SVM classification on the low-dimensional representation.
 
@@ -31,4 +35,4 @@ Python 3.x along with the following Python libraries is required to run the proj
 3. librosa
 4. matplotlib
 
-To install these libraries, use the following pip command:
+You can download and use the Jupyter notebook file to run this project
