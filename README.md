@@ -7,6 +7,7 @@ This project aims to predict the emotion associated with an audio signal using M
 Audio signal representations such as Mel spectrograms and chromagrams are key in understanding the content of the audio. A Mel spectrogram is a frequency-based representation of an audio signal that involves fragmenting the signal into several windows, applying a Fourier Transform to identify the frequency components, and computing the amplitudes of the different frequencies [[1]](https://librosa.org/doc/main/generated/librosa.feature.melspectrogram.html). Chromagrams are another related representation that characterizes the pitch profile of a signal according to the twelve pitch classes used in music [[1]](https://librosa.org/doc/main/generated/librosa.feature.melspectrogram.html).
 
 Here are some examples of the different components invovled in this:
+
 ![My Image](Screenshot_1.png)
 
 ![My Image](Screenshot_2.png)
